@@ -2,16 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.neuralrehabilitation.org/'>Neural rehabilitation group</a>. Contacts. Moto. Etc.
+subtitle: Researcher in the <a href='https://www.neuralrehabilitation.org/'>Neural rehabilitation group</a> at <a href='https://www.csic.es/'>National Spanish Research Council (CSIC)</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic.png
   image_circular: false # crops the image to make it circular
   address: >
     <p>Instituto Cajal</p>
     <p>Doctor Arce 37</p>
-    <p>Madrid, 28007. Spain</p>
+    <p>Madrid, 28007</p>
+    <p>Spain</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
