@@ -217,6 +217,12 @@ Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](
 ```bash
 $ git clone git@github.com:<your-username>/<your-repo-name>.git
 $ cd <your-repo-name>
+
+- In ubuntu
+$ sudo apt-get install ubuntu-dev-tools
+$ sudo apt-get install ruby-full
+$ sudo apt-get install ruby-bundler
+
 $ bundle install
 $ bundle exec jekyll serve
 ```
