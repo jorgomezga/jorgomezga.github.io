@@ -222,10 +222,29 @@ $ cd <your-repo-name>
 $ sudo apt-get install ubuntu-dev-tools
 $ sudo apt-get install ruby-full
 $ sudo apt-get install ruby-bundler
+-------
+
+- In MAC
+$ brew install rbenv ruby-build
+$ rbenv install -l   
+$ rbenv init -> Follow instructions
+ # Load rbenv automatically by appending
+ # the following to ~/.zshrc:
+eval "$(rbenv init - zsh)"
+$ rbenv install 3.1.2 
+$ rbenv global 3.1.2
+$ brew install imagemagick
+------
 
 $ bundle install
 $ bundle exec jekyll serve
 ```
+
+> **Note:**
+> `jekyll serve` or `jekyll s` - Builds your site any time a source file changes and serves it locally.
+> `jekyll clean` - Removes all generated files: destination folder, metadata file, Sass and Jekyll caches.
+> `jekyll build` or `jekyll b` - Performs a one off build your site to ./_site (by default).
+> `jekyll doctor` - Outputs any deprecation or configuration issues.
 
 Now, feel free to customize the theme however you like (don't forget to change the name!).
 After you are done, **commit** your final changes.
