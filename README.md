@@ -224,6 +224,27 @@ $ sudo apt-get install ruby-full
 $ sudo apt-get install ruby-bundler
 -------
 
+- In Windows
+* Install WSL2:
+$ sudo wsl --install
+* Restart and configure Ubuntu user
+
+* Open Ubuntu terminal
+$ sudo apt-get install ubuntu-dev-tools
+$ sudo apt-get install ruby-full
+$ sudo apt-get install ruby-bundler
+
+$ bundle config set --local path 'vender/bundle'
+$ bundle install
+
+* Open _config.yaml file and add the following in the 'exclude:' section:
+- tmp/
+- vendor/
+
+$ bundle add webrick
+$ bundle exec
+-------
+
 - In MAC
 $ brew install rbenv ruby-build
 $ rbenv install -l   
