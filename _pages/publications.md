@@ -10,41 +10,38 @@ nav: true
 nav_order: 0
 ---
 
+## Thesis
 
-Thesis
---------------------
 <!-- _pages/publications.md -->
 <div class="publications">
 
 {%- for y in page.years_thesis %}
+
   <h2 class="year">{{y}}</h2>
   {% bibliography -f thesis -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
 
-
-
-Papers
---------------------
+## Papers
 
 <!-- _pages/publications.md -->
 <div class="publications">
 
 {%- for y in page.years %}
+
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
 
-
-Conferences
---------------------
+## Conferences
 
 <div class="publications">
 
 {%- for y in page.years %}
+
   <h2 class="year">{{y}}</h2>
   {% bibliography -f conferences -q @*[year={{y}}]* %}
 {% endfor %}

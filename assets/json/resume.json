@@ -41,13 +41,7 @@
     {
       "name": "AI in Biomedical engineering",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Use of AI in Biomedical problemas",
-        "Machine Learning",
-        "Deep Learning",
-        "Complexity and Chaos Theory",
-        "Signal Processing"
-      ]
+      "keywords": ["Use of AI in Biomedical problemas", "Machine Learning", "Deep Learning", "Complexity and Chaos Theory", "Signal Processing"]
     }
   ]
 }
