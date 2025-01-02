@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://jorgomezga.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://jorgomezga.github.io/sitemap.xml
