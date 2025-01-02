@@ -1,11 +1,12 @@
 {
   "basics": {
-    "name": "Jorge A. Gómez García",
-    "label": "Ph.D., Researcher, Data Scientist",
+    "name": "Jorge Andrés Gómez-García",
+    "label": "Ph.D., Researcher",
     "image": "",
     "email": "jorge.gomez.garcia@csic.es",
     "url": "https://jorgomezga.github.io/",
     "location": {
+      "name": "Centro de Automática y Robótica (CAR)",
       "address": "Ctra. De Campo Real KM 0,200 La Poveda",
       "city": "Arganda del Rey",
       "countryCode": "ES",

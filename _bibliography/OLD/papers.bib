@@ -1,0 +1,318 @@
+# author 
+# title
+# journal
+# publisher
+# volume
+# issue
+# pages
+# year
+# doi
+# issn
+# html
+# abbr
+# bibtex_show
+# selected
+
+
+# 2021
+# supp="https://doi.org/10.1016/j.bspc.2020.102049",
+   blog="",
+   code="",
+   poster="",
+   slides="",
+   website="",
+   altmetric="",
+   preview={true},
+@article{gomez2021design,
+   abstract = {This is the third of a three-part series devoted to review the current state of the art of automatic voice condition analysis systems. A direct continuation to “On the design of automatic voice condition analysis systems. Part I: review of concepts and an insight to the state of the art” and to “On the design of automatic voice condition analysis systems. Part II: review of speaker recognition techniques and study on the effects of different variability factors” already published in this journal. The goal of this paper is to compile the most significant parameterisation approaches used in the literature for automatic voice condition analysis systems, along with a critical discussion about their usefulness, providing the user with a comprehensive review of the most important techniques used for acoustic modelling in the field. The paper presents the mathematical formulation and physical interpretation of a series of perturbation and fluctuation parameters, noise features, complexity based parameters, modulation spectra, morphological parameters, and spectral-cepstral coefficients; and is complemented with a library written in MATLAB®, which has been made available to the readers in an online software repository.},
+   author = {Jorge Andrés Gómez-García and Laureano Moro-Velázquez and Julián David Arias-Londoño and Juan Ignacio Godino-Llorente},
+   title = {On the design of automatic voice condition analysis systems. Part III: review of acoustic modelling strategies},
+   journal = {Biomedical Signal Processing and Control},
+   publisher = {Elsevier},
+   volume = {66},   
+   pages = {102049},
+   month = {4},
+   year = {2021},
+   doi = {10.1016/j.bspc.2020.102049},
+   issn = {17468094},
+   html= {https://doi.org/10.1016/j.bspc.2020.102049},
+   abbr={BSPC},
+   bibtex_show={true},
+   selected="true",
+}
+
+# 2020
+@article{moro2020analysis,
+   abstract = {This article evaluates the impact in the performance of state-of-The-Art automatic speaker recognition schemes of three surgical procedures modifying the supraglottal tract structures of speakers. To do so, a new corpus (Cuco) was recorded, containing the speech of 107 speakers before and after surgery. Speakers were divided into four groups depending on the type of surgery: Tonsillectomy, functional endoscopy sinus surgery (FESS), septoplasty, and controls. The analyzed speaker recognition schemes were i-vectors, i-vectors with supervised Universal Background Model, i-vectors employing Time-delay Deep Neural Networks and x-vectors. In all cases, probabilistic linear discriminant analysis was employed in the back-end. Results show changes in the speech of patients who underwent tonsillectomy or FESS after surgery in contrast to controls or patients who had a septoplasty, where not significant variations are observed. These changes increase the Equal Error Rate (EER) of the analyzed speaker recognition schemes for the septoplasty and FESS groups when employing enrollment data recorded before the surgery. Moreover, surgery has a similar influence in the speech of female and male speakers with respect to the analyzed schemes. In consequence, results suggest that it is advisable to update the speaker's enrollment speech after three months following supraglottal tract surgery to ensure that the effects of the operation and post-operative recovery period do not influence the performance of the automatic speaker recognition systems.},
+   author = {Laureano Moro-Velázquez and Estefania Hernandez-Garcia and Jorge Andrés Gómez-García and Juan Ignacio Godino-Llorente and Najim Dehak},
+   title = {Analysis of the Effects of Supraglottal Tract Surgical Procedures in Automatic Speaker Recognition Performance},
+   journal = {IEEE/ACM Transactions on Audio, Speech, and Language Processing},  
+   publisher = {IEEE}, 
+   volume = {28},
+   pages = {798-812},
+   year = {2020},
+   doi = {10.1109/TASLP.2020.2967567},
+   issn = {2329-9290},
+   html = {https://doi.org/10.1109/TASLP.2020.2967567},
+   abbr={IEEE-ACM},
+   bibtex_show={true},
+   selected="false",
+}
+@article{arias2020artificial,
+   abstract = {Current standard protocols used in the clinic for diagnosing COVID-19 include molecular or antigen tests, generally complemented by a plain chest X-Ray. The combined analysis aims to reduce the significant number of false negatives of these tests and provide complementary evidence about the presence and severity of the disease. However, the procedure is not free of errors, and the interpretation of the chest X-Ray is only restricted to radiologists due to its complexity. With the long term goal to provide new evidence for the diagnosis, this paper presents an evaluation of different methods based on a deep neural network. These are the first steps to develop an automatic COVID-19 diagnosis tool using chest X-Ray images to differentiate between controls, pneumonia, or COVID-19 groups. The paper describes the process followed to train a Convolutional Neural Network with a dataset of more than 79, 500 X-Ray images compiled from different sources, including more than 8, 500 COVID-19 examples. Three different experiments following three preprocessing schemes are carried out to evaluate and compare the developed models. The aim is to evaluate how preprocessing the data affects the results and improves its explainability. Likewise, a critical analysis of different variability issues that might compromise the system and its effects is performed. With the employed methodology, a 91.5% classification accuracy is obtained, with an 87.4% average recall for the worst but most explainable experiment, which requires a previous automatic segmentation of the lung region.},
+   author = {Julián David Arias-Londoño and Jorge Andrés Gómez-García and Laureano Moro-Velázquez and Juan Ignacio Godino-Llorente},
+   title = {Artificial Intelligence Applied to Chest X-Ray Images for the Automatic Detection of COVID-19. A Thoughtful Evaluation Approach},
+   journal = {IEEE Access},
+   publisher = {IEEE},
+   volume = {8},
+   pages = {226811-226827},
+   year = {2020},
+   doi = {10.1109/ACCESS.2020.3044858},
+   issn = {2169-3536},
+   html = {https://doi.org/10.1109/ACCESS.2020.3044858},
+   abbr={IEEE-Access},
+   bibtex_show={true},
+   selected="false",
+}
+@article{arias2020multimodal,
+   abstract = {This article addresses the automatic assessment of voice quality according to the GRB scale, based on the use of a variety of deep learning architectures for prediction purposes. The proposed architectures are multimodal, because they employ multiples sources of information; and also multi-output, because they simultaneously predict all the traits of the GRB scale. A feature engineering approach is followed, based on the use of deep neural networks and a set of well-established features such as MFCC, perturbation and complexity characteristics. Likewise, a representation learning is considered, using convolutional neural networks feed on modulation spectra extracted from voices. Finally, diverse loss functions are also investigated, including two surrogate ordinal classification, a conventional weighed categorical cross-entropy, and a mean square error function. Experiments are carried out in a dataset containing registers of the sustained phonation of three vowels. The best deep learning architecture provides a relative performance improvement of 6.25% for G, 14.1% for R and 18.1% for B, in comparison with recently published results using the same dataset.},
+   author = {Julián David Arias-Londoño and Jorge Andrés Gómez-García and Juan Ignacio Godino-Llorente},
+   title = {Multimodal and Multi-Output Deep Learning Architectures for the Automatic Assessment of Voice Quality Using the GRB Scale},
+   journal = {IEEE Journal of Selected Topics in Signal Processing},
+   publisher = {IEEE},
+   issue = {2},   
+   volume = {14},
+   pages = {413-422},
+   month = {2},
+   year = {2020},
+   doi = {10.1109/JSTSP.2019.2956410},
+   issn = {1932-4553},
+   html = {https://doi.org/10.1109/JSTSP.2019.2956410}, 
+   abbr={IEEE-JSTSP},
+   bibtex_show={true},
+   selected="false",
+
+}
+
+# 2019
+@article{gomez2019design2,
+   abstract = {This is the first of a two-part series devoted to review the current state of the art of automatic voice condition analysis systems. The goal of this paper is to provide to the scientific community and to newly comers to the field of automatic voice condition analysis a resource that presents introductory concepts, a categorisation of different aspects of voice pathology and a systematic literature review that describes the methodologies and methods that are mostly used in these systems. To this end, pathological voice is firstly described in terms of perceptual characteristics and its relationship with physiological phenomena. Then, a prototypical automatic voice condition analysis system is described, discussing each one of its constituting parts and presenting an in-depth literature review about the methodologies that are typically employed. Finally, a discussion about some variability factors that affect the performance of these systems is presented.},
+   author = {Jorge Andrés Gómez-García and Laureano Moro-Velázquez and Juan Ignacio Godino-Llorente},
+   title = {On the design of automatic voice condition analysis systems. Part I: Review of concepts and an insight to the state of the art},
+   journal = {Biomedical Signal Processing and Control},
+   publisher = {Elsevier},   
+   volume = {51},
+   pages = {181-199},
+   month = {5},
+   year = {2019},
+   doi = {10.1016/j.bspc.2018.12.024},
+   issn = {17468094},   
+   html = {https://linkinghub.elsevier.com/retrieve/pii/S1746809418303239},
+   abbr={BSPC},
+   bibtex_show={true},
+   selected="false",
+}
+@article{gomez2019emulating,
+   abstract = {This paper presents the design of an automatic voice quality analysis system for the assessment of voice pathologies, which emulates the perceptual capabilities of a human evaluator according the GRB scale. For this purpose, a novel methodology based on multiple sets of characteristics, ordinal classification and Gaussian regression is proposed. In particular, a reduced subset of characteristics is identified, and the regressor is used to convert the discrete perceptual scale to a continuum, more in agreement to the nature of the problem under study. The robustness of the system is evaluated in several cross-dataset experiments. Similarly, a clinical evaluation of the predictions provided by the system is carried out. Results indicate that the proposed methodology is proficient in modelling the perceptual capabilities of the human evaluator. They also show that it is possible to extend the GRB scale to a continuum through regression techniques while maintaining the consistency of the results. On average, the deviation between the labels assessed by the expert and the ones provided by the system is of about 0.5 units (in a scale from 0 to 3) for G and B, and of 0.7 units for R. Similarly, the deviation of the labels predicted by the system in the clinical assessment trials is about 0.3 units for G, 0.4 units for B, and 0.5 units for R.},
+   author = {Jorge Andrés Gómez-García and Laureano Moro-Velázquez and Janaina Mendes-Laureano and Germán Castellanos-Domínguez and Juan Ignacio Godino-Llorente},
+   title = {Emulating the perceptual capabilities of a human evaluator to map the GRB scale for the assessment of voice disorders},
+   journal = {Engineering Applications of Artificial Intelligence},
+   publisher = {Pergamon},
+   volume = {82},
+   pages = {236-251},
+   month = {6},
+   year = {2019},
+   issn = {09521976},
+   doi = {10.1016/j.engappai.2019.03.027},
+   html = {https://doi.org/10.1016/j.engappai.2019.03.027},
+   abbr={EAAI},
+   bibtex_show={true},
+   selected="true",
+}
+
+# 2018
+@article{Moro2018,
+   abstract={The diagnosis of Parkinson's Disease is a challenging task which might be supported by new tools to objectively evaluate the presence of deviations in patient's motor capabilities. To this respect, the dysarthric nature of patient's speech has been exploited in several works to detect the presence of this disease, but none of them has deeply studied the use of state-of-the-art speaker recognition techniques for this task. In this paper, two classification schemes (GMM-UBM and i-Vectors-GPLDA) are employed separately with several parameterization techniques, namely PLP, MFCC and LPC. Additionally, the influence of the kinetic changes, described by their derivatives, is analysed. With the proposed methodology, an accuracy of 87% with an AUC of 0.93 is obtained in the optimal configuration. These results are comparable to those obtained in other works employing speech for Parkinson's Disease detection and confirm that the selected speaker recognition techniques are a solid baseline to compare with future works. Results suggest that Rasta-PLP is the most reliable parameterization for the proposed task among all the tested features while the two employed classification schemes perform similarly. Additionally, results confirm that kinetic changes provide a substantial performance improvement in Parkinson's Disease automatic detection systems and should be considered in the future.},
+   title = {Analysis of speaker recognition methodologies and the influence of kinetic changes to automatically detect Parkinson's Disease},
+   journal = {Applied Soft Computing},
+   pages = {649-666},
+   volume = {62},
+   month = {1},
+   year = {2018},
+   issn = {15684946},
+   doi = {10.1016/j.asoc.2017.11.001},
+   html = {https://doi.org/10.1016/j.asoc.2017.11.001},
+   abbr={ASC},
+   bibtex_show={true},
+   selected="true",
+}
+
+# 2017
+@article{Godino-Llorente2017,
+   abstract = {Although a large amount of acoustic indicators have already been proposed in the literature to evaluate the hypokinetic dysarthria of people with Parkinson’s Disease, the goal of this work is to identify and interpret new reliable and complementary articulatory biomarkers that could be applied to predict/evaluate Parkinson’s Disease from a diadochokinetic test, contributing to the possibility of a further multidimensional analysis of the speech of parkinsonian patients. The new biomarkers proposed are based on the kinetic behaviour of the envelope trace, which is directly linked with the articulatory dysfunctions introduced by the disease since the early stages. The interest of these new articulatory indicators stands on their easiness of identification and interpretation, and their potential to be translated into computer based automatic methods to screen the disease from the speech. Throughout this paper, the accuracy provided by these acoustic kinetic biomarkers is compared with the one obtained with a baseline system based on speaker identification techniques. Results show accuracies around 85% that are in line with those obtained with the complex state of the art speaker recognition techniques, but with an easier physical interpretation, which open the possibility to be transferred to a clinical setting.},
+   author = {Juan Ignacio Godino-Llorente and Stephanie Shattuck-Hufnagel and Jeung-Yoon Choi and Laureano Moro-Velázquez and Jorge Andrés Gómez-García},
+   title = {Towards the identification of Idiopathic Parkinson’s Disease from the speech. New articulatory kinetic biomarkers},
+   journal = {PLOS ONE},
+   editor = {Lutz Jäncke},
+   issue = {12},
+   volume = {12},
+   pages = {e0189583},
+   month = {12},
+   year = {2017},
+   issn = {1932-6203},
+   doi = {10.1371/journal.pone.0189583},
+   pmid = {29240814},
+   html = {https://doi.org/10.1371/journal.pone.0189583},
+   abbr={PlosOne},
+   bibtex_show={true},
+   selected="true",
+}
+@article{sepulveda2017analisis,
+   abstract={This paper compares the results of using compressed voice signals versus uncompressed speech signals to automatically detect voice abnormalities. Coding techniques and voice compression used in this study are the same as those used by default in the fixed, mobile and ip telephony systems, and techniques of characterization and classification used are also among the most used for detecting automatic speech abnormalities. The results obtained indicate that it is possible to use compressed voice signals for automatic detection of vocal pathologies without compromising the success rate in the diagnosis, which would make the implementation of automatic remote diagnosis of vocal pathologies possible.},
+   author = {Lina María Sepúlveda Cano and Jhon Jair Quiza Montealegre and Jorge Andrés Gómez-García},
+   title = {Análisis de la influencia de las técnicas de compresión de voz en la detección de anomalías vocales},
+   journal = {Revista Ingenierías Universidad de Medellín},
+   publisher = {Universidad de Medell\{\'\i\}n},
+   issue = {30},
+   volume = {16},
+   pages = {49-66},
+   year = {2017},
+   issn = {16923324},
+   doi = {10.22395/rium.v16n30a3},
+   html = {https://doi.org/10.22395/rium.v16n30a3},
+   abbr={UdeM},
+   bibtex_show={true},
+   selected="false",
+}
+
+# 2016
+@article{gomez2016UAntioquia,
+   abstract={An automatic categorization of the speakers according to their sex improves the performance of an automatic detector of voice pathologies. This is grounded on findings demonstrating perceptual, acoustical and anatomical differences in males’ and females’ voices. In particular, this paper follows two objectives: 1) to design a system which automatically discriminates the sex of a speaker when using normophonic and pathological speech, 2) to study the influence that this sex detector has on the accuracy of a further voice pathology detector. The parameterization of the automatic sex detector relies on MFCC applied to speech; and MFCC applied to glottal waveforms plus parameters modeling the vocal tract. The glottal waveforms are extracted from speech via iterative lattice inverse filters. Regarding the pathology detector, a MFCC parameterization is applied to speech signals. Classification, in both sex and pathology detectors, is carried out using state of the art techniques based on universal background models. Experiments are performed in the Saarbrücken database, employing the sustained phonation of vowel /a/. Results indicate that the sex of the speaker may be discriminated automatically using normophonic and pathological speech, obtaining accuracy up to 95%. Moreover, including the a-priori information about the sex of the speaker produces an absolute performance improvement in EER of about 2% on pathology detection tasks.},
+   author = {Jorge Andrés Gómez-García and Laureano Moro-Velázquez and Juan Ignacio Godino-Llorente and Germán Castellanos-Domínguez},
+   title = {An insight to the automatic categorization of speakers according to sex and its application to the detection of voice pathologies: A comparative study},
+   journal = {Revista Facultad de Ingeniería Universidad de Antioquia},
+   issue = {79},
+   pages = {50-62},
+   month = {6},
+   year = {2016},
+   issn = {01206230},
+   doi = {10.17533/udea.redin.n79a06},
+   html = {https://doi.org/10.17533/udea.redin.n79a06},
+   abbr={UdeA},
+   bibtex_show={true},
+   selected="false",
+}
+@article{sepulveda2016spectrum,
+   abstract = {Cognitive radio (CR) is proposed as a key solution to improve spectral efficiency and overcome the spectrum scarcity. Spectrum sensing is an important task in each CR system with the aim of identifying the spectrum holes and using them for secondary user's (SU) communications. Several conventional methods for spectrum sensing have been proposed such as energy detection, matched filter detection, etc. However, the main limitation of these classical methods is that the CR network is not able to communicate with its own base station during the spectrum sensing period and thus a fraction of the available primary frame cannot be exploited for data transmission. The other limitation in conventional methods is that the SU data frames should be synchronized with the primary network data frames. To overcome the above limitations, here, we propose a spectrum sensing technique based on blind source separation (BSS) that does not need time synchronization between the primary network and the CR. Moreover, by using the proposed technique, the SU can maintain its transmission with the base station even during spectrum sensing and thus higher rates are achieved by the CR network. Simulation results indicate that the proposed method outperforms the accuracy of conventional BSS-based spectrum sensing techniques. © 2013 KSII.},
+   author = {Lina María Sepúlveda Cano and Jhon Jair Quiza Montealegre and Camilo Gil Taborda and Jorge Andrés Gómez-García},
+   title = {Spectrum Sensing Framework based on Blind Source Separation for Cognitive Radio Environments},
+   journal = {Revista Ingenierías Universidad de Medellín},   
+   issue = {29},
+   volume = {15},
+   pages = {129-140},
+   year = {2016},
+   issn = {16923324},
+   doi = {10.22395/rium.v15n29a8},
+   html = {https://doi.org/10.22395/rium.v15n29a8},   
+   abbr={UdeM},
+   bibtex_show={true},
+   selected="false",
+}
+@article{gomez2016,
+   abstract={An automatic categorization of the speakers according to their sex improves the performance of an automatic detector of voice pathologies. This is grounded on findings demonstrating perceptual, acoustical and anatomical differences in males’ and females’ voices. In particular, this paper follows two objectives: 1) to design a system which automatically discriminates the sex of a speaker when using normophonic and pathological speech, 2) to study the influence that this sex detector has on the accuracy of a further voice pathology detector. The parameterization of the automatic sex detector relies on MFCC applied to speech; and MFCC applied to glottal waveforms plus parameters modeling the vocal tract. The glottal waveforms are extracted from speech via iterative lattice inverse filters. Regarding the pathology detector, a MFCC parameterization is applied to speech signals. Classification, in both sex and pathology detectors, is carried out using state of the art techniques based on universal background models. Experiments are performed in the Saarbrücken database, employing the sustained phonation of vowel /a/. Results indicate that the sex of the speaker may be discriminated automatically using normophonic and pathological speech, obtaining accuracy up to 95%. Moreover, including the a-priori information about the sex of the speaker produces an absolute performance improvement in EER of about 2% on pathology detection tasks.},
+   author = {Jorge Andrés Gómez-García and Laureano Moro-Velázquez and Juan Ignacio Godino-Llorente and Germán Castellanos-Domínguez},
+   title = {An insight to the automatic categorization of speakers according to sex and its application to the detection of voice pathologies: A comparative study},
+   journal = {Revista Facultad de Ingeniería Universidad de Antioquia},
+   publisher = {Universidad de Antioquia, Facultad de Ingenieria},
+   issue = {79},
+   pages = {50-63},
+   month = {6},
+   year = {2016},
+   issn = {01206230},
+   doi = {10.17533/udea.redin.n79a06},
+   html = {https://doi.org/10.17533/udea.redin.n79a06},
+   abbr={UdeA},
+   bibtex_show={true},
+   selected="false",   
+}
+
+# 2015
+@article{Moro-Velazquez2015,
+   abstract = {Disordered voices are frequently assessed by speech pathologists using perceptual evaluations. This might lead to problems caused by the subjective nature of the process and due to the influence of external factors which compromise the quality of the assessment. In order to increase the reliability of the evaluations, the design of automatic evaluation systems is desirable. With that in mind, this paper presents an automatic system which assesses the Grade and Roughness level of the speech according to the GRBAS perceptual scale. Two parameterization methods are used: one based on the classic Mel-Frequency Cepstral Coefficients, which has already been used successfully in previous works, and other derived from modulation spectra. For the latter, a new group of parameters has been proposed, named Modulation Spectra Morphological Parameters : MSC, DRB, LMR, MSH, MSW, CIL, PALA, and RALA. In methodology, PCA and LDA are employed to reduce the dimensionality of feature space, and GMM classifiers to evaluate the ability of the proposed features on distinguishing the different levels. Efficiencies of 81.6% and 84.7% are obtained for Grade and Roughness, respectively, using modulation spectra parameters, while MFCCs performed 80.5% and 77.7%. The obtained results suggest the usefulness of the proposed Modulation Spectra Morphological Parameters for automatic evaluation of Grade and Roughness in the speech.},
+   author = {Laureano Moro-Velázquez and Jorge Andrés Gómez-García and Juan Ignacio Godino-Llorente and Gustavo Andrade-Miranda},
+   title = {Modulation Spectra Morphological Parameters: A New Method to Assess Voice Pathologies according to the GRBAS Scale},
+   journal = {BioMed Research International},
+   publisher = {Hindawi Publishing Corporation},
+	editor = {Klein, Adam},
+   volume = {2015},
+	pages = {259239},
+   year = {2015},
+	issn = {2314-6133},
+   pmid = {26557656},
+   doi = {10.1155/2015/259239},
+   html = {https://doi.org/10.1155/2015/259239},
+   abbr={BiomedResearch},
+   bibtex_show={true},
+   selected="false",      
+}
+
+
+# 2010
+@article{ospina2010analisis,
+   abstract = {Una propiedad muy deseable en sistemas de detección automática de patologías es la robustez ante el ruido, tal que su presencia no afecte notablemente la habilidad de detectar patologías. El presente trabajo estudia la capacidad discriminatoria que características de la dinámica no lineal, en particular, el Exponente de Hurst, el Máximo Exponente de Lyapunov y la Dimensión de Correlación, puedan proveer en la detección de soplos cardíacos usando señales fonocardiográficas contaminadas con diferentes niveles de ruido. A su vez se hacen comparaciones con características obtenidas a partir de representaciones tiempo frecuencia. Los resultados muestran la fortaleza de las características basadas en dinámica no lineal para tareas de clasificación de estados funcionales, aún sobre señales con altos niveles de ruido.},
+   title = {Análisis de la tolerancia al ruido de características basadas en dinámica no lineal sobre señales fonocardiográficas},
+   author = {Carolina Ospina-Aguirre and Jorge Andrés Gómez-García and Edilson Delgado-Trejos and Germán Castellanos-Domínguez},
+   journal = {TecnoLógicas},
+   publisher = {Instituto Tecnológico Metropolitano (ITM)},
+   issue = {25},
+   pages = {189},
+   month = {12},
+   year = {2010},   
+   issn = {2256-5337},
+   doi = {10.22430/22565337.135},
+   html = {https://doi.org/10.22430/22565337.135},
+   abbr={ITM},
+   bibtex_show={true},
+   selected="false",      
+}
+
+
+## FALTAN
+
+% 2014
+@article{NeuroComputing2014,
+author = {G\'{o}mez-Garc\'{\i}a, J.A and Godino-Llorente, J. I. and Castellanos-Dom\'{\i}nguez, G.},
+issn = {09252312},
+journal = {Neurocomputing},
+keywords = {Non uniform embedding,Nonlinear dynamics,Time-delay embedding},
+number = {0},
+pages = {148--158},
+title = {{Non uniform Embedding based on Relevance Analysis with reduced computational complexity: Application to the detection of pathologies from biosignal recordings}},
+volume = {132},
+year = {2014}
+}
+
+
+@article{andrade2015automatic,
+  title={An automatic method to detect and track the glottal gap from high speed videoendoscopic images},
+  author={Andrade-Miranda, G. and Godino-Llorente, J.I. and Moro-Vel{\'a}zquez, L. and G{\'o}mez-Garc{\'\i}a, J.A},
+  journal={Biomedical engineering online},
+  volume={14},
+  number={1},
+  pages={100},
+  year={2015},
+  publisher={BioMed Central Ltd}
+}
+
+
+
+% 2016
+@article{moro2016voice,
+  title={Voice pathology detection using modulation spectrum optimized metrics},
+  author={Moro-Velazquez, L. and G{\'o}mez-Garc{\'\i}a, J.A. and Godino-Llorente, J.I},
+  journal={Frontiers in Bioengineering and Biotechnology},
+  volume={4},
+  pages={1},
+  year={2016},
+  publisher={Frontiers}
+}

@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: Researcher in the <a href='https://www.neuralrehabilitation.org/'>Neural rehabilitation group</a> at <a href='https://www.csic.es/'>National Spanish Research Council (CSIC)</a>
+subtitle: Researcher at the <a href='https://biorobotics.car.upm-csic.es/'>BioRobotics group</a> at <a href='https://www.csic.es/'>National Spanish Research Council (CSIC)</a>
 
 profile:
   align: right
   image: profile_pic.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Instituto Cajal</p>
-    <p>Doctor Arce 37</p>
-    <p>Madrid, 28007</p>
+    <p>Center for Automation and Robotics</p>
+    <p>Ctra. De Campo Real KM 0,200 La Poveda</p>
+    <p>Arganda del Rey, 28007</p>
     <p>Spain</p>
 
 news: false # includes a list of news items
@@ -21,4 +21,4 @@ social: true # includes social icons at the bottom of the page
 
 Welcome to my page!
 
-I'm Jorge Andrés Gómez García, a researcher working at the [Insituto Cajal](https://www.cajal.csic.es) at the [National Spanish Research Council (CSIC)](https://www.csic.es). I received my degree in Electronics engineering and MEng from Universidad Nacional de Colombia, Manizales in 2008 and 2010 respectivel. In 2018 I received my PhD from Universidad Politécnica de Madrid, Spain. From 2018-2020 I worked as a researcher in Universidad Politécnica de Madrid. Nowadays, I'm a researcher at the [Neural Rehabilitation group](https://www.neuralrehabilitation.org/en/) where I'm using artificial intelligence to solve problems in the field of rehabilitation and bioengineering.
+I'm Jorge Andrés Gómez García, a researcher at the [Center for Automation and Robotics](https://biorobotics.car.upm-csic.es/) under the [National Spanish Research Council (CSIC)](https://www.csic.es). I hold a degree in Electronics Engineering and an MEng from Universidad Nacional de Colombia, Manizales, obtained in 2008 and 2010, respectively. In 2018, I earned my PhD from Universidad Politécnica de Madrid, Spain. From 2018 to 2020, I served as a researcher at Universidad Politécnica de Madrid. Currently, I am part of the [BioRobotics group](https://biorobotics.car.upm-csic.es), where I leverage artificial intelligence to address challenges in rehabilitation and bioengineering.
